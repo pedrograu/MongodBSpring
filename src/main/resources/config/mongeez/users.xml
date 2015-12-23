@@ -1,0 +1,31 @@
+<mongoChangeLog>
+	<changeSet changeId="ChangeSet-1" author="jhipster">
+		<script>
+		  db.users.insert(
+            {
+                "id" : "1",
+                "username" : "admin",
+                "password" : "admin"
+            });        
+             db.users.insert(
+            {
+                "id" : "2",
+                "username" : "user1",
+                "password" : "user4"
+            });   
+             db.users.insert(
+            {
+                "id" : "3",
+                "username" : "user3",
+                "password" : "user4"
+            });   
+             db.users.insert(
+            {
+                "id" : "4",
+                "username" : "user4",
+                "password" : "user4"
+            });   
+		
+		</script>
+	</changeSet>
+</mongoChangeLog>
